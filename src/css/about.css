@@ -1,0 +1,67 @@
+.about {
+  padding: 4rem 2rem;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.highlight {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.about-skills {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.skills-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background: #fff;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.skills-list li:hover {
+  transform: translateX(5px);
+}
+/* Go Back Button style */
+.back-btn {
+  background: #555;
+  color: white;
+}
+
+.back-btn:hover {
+  background: #333;
+}

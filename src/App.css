@@ -1,0 +1,96 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: #111;
+  color: white;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #ccc;
+}
+
+/* Home */
+.home {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: #f5f5f5;
+}
+
+.home-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Buttons Grid */
+.button-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.portfolio-btn {
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #111;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.portfolio-btn:hover {
+  transform: scale(1.05);
+  background: #333;
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+  .button-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .button-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
