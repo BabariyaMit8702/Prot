@@ -16,6 +16,7 @@ import f12 from '../assets/the_imgs/fs12.png'
 import f13 from '../assets/the_imgs/fs13.png'
 import f14 from '../assets/the_imgs/fs14.png'
 import f15 from '../assets/the_imgs/fs15.png'
+import f16 from '../assets/the_imgs/rrr.png'
 
 
 export const Fstack = () => {
@@ -35,6 +36,7 @@ export const Fstack = () => {
     { id: 13, src: f13, alt: "suggestion page" },
     { id: 14, src: f14, alt: "model list" },
     { id: 15, src: f15, alt: "user list" },
+    { id: 16, src: f16, alt: "comment model" },
   ];
 
   const [selected, setSelected] = useState(null);
