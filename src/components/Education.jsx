@@ -23,7 +23,7 @@ export const Education = () => {
             Bhakta Kavi Narsinh Mehta University, Junagadh
           </p>
           <p className="edu-status">Currently in 2nd Year</p>
-          <p className="edu-exp">💼 Fresher (No Work Experience)</p>
+          <p className="edu-exp">💼 Intern (september 2025 - present)</p>
         </div>
       </div>
         <center>

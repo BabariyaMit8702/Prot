@@ -18,8 +18,11 @@ export const Personal_info = () => {
           <p className="hero-intro">
             I am a passionate Full Stack Developer who builds scalable and secure web applications using Django and React. 
             Web development is not just my career path but also my true area of interest.
-            
+             <p>
+          I'm currently working at ReignAgent as a Full Stack Developer Intern.
+        </p>
           </p>
+            
 
           <div className="hero-buttons">
           

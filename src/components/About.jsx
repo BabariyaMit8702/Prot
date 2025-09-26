@@ -25,6 +25,9 @@ export const About = () => {
           <strong>web development</strong>. I enjoy learning new technologies and
           creating projects that solve real-world problems.
         </p>
+        <p>
+          I'm currently working at ReignAgent as a Full Stack Developer Intern.
+        </p>
       </div>
 
 
